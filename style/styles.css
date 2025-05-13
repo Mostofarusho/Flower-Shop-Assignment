@@ -187,19 +187,37 @@
         margin: 100px 0px;
         display: flex;
         justify-content: space-around;
+        gap: 20px;
         align-items: center;
         background: rgba(167, 33, 98, 0.15);
+        padding: 100px 0;
     }
     
-    .off {
-        font-family: Lato;
+    .container-offer-section .offer-heading {
+        width: 75%;
+        max-width: 550px;
+        text-align: center;
+    }
+    
+    .container-offer-section .offer-heading * {
+        margin-bottom: 24px;
+    }
+    
+    .container-offer-section .offer-heading h2 {
+        color: #272727;
         font-size: 40px;
         font-weight: 800;
         line-height: 48px;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-bottom: 16px;
+        font-style: normal;
+        margin-bottom: 24px;
+    }
+    
+    .container-offer-section .offer-heading h2 .off {
         color: rgb(229, 84, 115);
+    }
+    
+    .container-offer-section .offer-image img {
+        max-width: 318px;
     }
     /* Instagram */
     
@@ -208,21 +226,27 @@
         text-align: center;
     }
     
+    .container-instagram-section .instagram_images img {
+        max-width: 300px;
+    }
+    
     .instagram_images {
         display: flex;
-        gap: 20px;
+        gap: 30px;
+        justify-content: space-around;
+        padding: 50px 0;
     }
     /* subscribe */
     
     .container-subscribe-section {
-        margin: 100px 0;
-        padding: 20px;
+        margin: 100px 0px;
+        padding: 50px 0;
         text-align: center;
         background-image: url("../Flower_Asset/Rectangle\ 9.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 300px;
+        height: 400px;
         width: 100%;
     }
     
@@ -238,9 +262,14 @@
     }
     /* footer  */
     
+    .container-footer-section * {
+        margin-bottom: 24px;
+    }
+    
     .container-footer-section {
         background: rgb(17, 16, 16);
         margin: 20px auto;
+        padding: 50px;
     }
     
     .footer-heading {
@@ -248,7 +277,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        height: 300px;
         text-align: center;
         margin: 0 auto;
     }

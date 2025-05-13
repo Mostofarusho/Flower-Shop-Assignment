@@ -217,3 +217,16 @@ p {
     margin-bottom: 16px;
     color: rgb(229, 84, 115);
 }
+
+
+/* Instagram */
+
+.container-instagram-section {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.instagram_images {
+    display: flex;
+    gap: 20px;
+}

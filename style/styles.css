@@ -230,3 +230,29 @@ p {
     display: flex;
     gap: 20px;
 }
+
+
+/* subscribe */
+
+.container-subscribe-section {
+    margin: 100px 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url("../Flower_Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+.instagram-form_input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 10px;
+}
